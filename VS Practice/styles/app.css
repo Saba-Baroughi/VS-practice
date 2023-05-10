@@ -1,0 +1,18 @@
+*{box-sizing: border-box;
+margin: 0px;}
+body{font-family: 'Times New Roman', Times, serif;
+background-color: #E0F7FA;}
+.box1, .box2, .box3{ height: 200px;
+margin: 25px;}
+.box1{background-color: #EC407A;position: relative
+;}
+.box2{background-color: #29B6F6;
+position: sticky;
+top: 50px}
+.box3{background-color: #43A047;}
+.overlay{height: 1800px;}
+.box1-child{background-color: #fff;
+width: 100px;
+height: 100px;
+position: absolute;
+right: 0;}
