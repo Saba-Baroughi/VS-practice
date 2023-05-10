@@ -3,16 +3,26 @@ margin: 0px;}
 body{font-family: 'Times New Roman', Times, serif;
 background-color: #E0F7FA;}
 .box1, .box2, .box3{ height: 200px;
-margin: 25px;}
-.box1{background-color: #EC407A;position: relative
-;}
+margin: 25px;
+border: 7px solid;}
+.box1{background-color: #ec40b8;position: relative
+; border-color:  #F4511E;
+position: relative;}
 .box2{background-color: #29B6F6;
-position: sticky;
-top: 50px}
-.box3{background-color: #43A047;}
+border-color: aqua;}
+.box3{background-color: #43A047; border-color: #F4511E;}
 .overlay{height: 1800px;}
-.box1-child{
-width: 100px;
-height: 100px;
+
+
+.box1-child1{width: 50px;
+height: 50px;
+background-color: #FF3D00;
 position: absolute;
 right: 0;}
+.box1-child2{width: 50px;
+    height: 50px;
+    background-color: burlywood;
+position: obsolute;
+left: 0px;}
+    .box1-child1, .box1-child2 {font-size: 32px;
+    text-align: center;}
