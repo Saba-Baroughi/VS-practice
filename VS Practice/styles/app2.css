@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+margin: 0;}
+@font-face {
+    font-family: Shabnam;
+    src: local (Shabnam) url(../fonts/Shabnam-FD.woff2) format(woff2);
+}
+body{
+    font-family: Shabnam ;
+    background-color:#fafafa;
+}
+.container{max-width: 1216px;
+margin-right: auto;
+margin-left: auto;
+margin-top: 56px;
+}
+.section-head{
+     width: 1216px;
+     height: 25px;
+     margin-right: auto;
+     margin-left: auto;
+     margin-bottom: 25px;
+}
+.svg-title{display: flex;
+   
+}
+
+.head-link-a{
+    color: blue;
+    text-decoration: none;
+    margin-left:947px;
+}
+
+.row{
+    
+    width: 1216px;
+     height: 350px; 
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    gap: 20px;
+}
+.flex-box{
+    height: 310px;
+    width:300px;
+    background-color: #fff;
+    border: 1px solid #ECEFF1;
+    box-shadow:4px 4px 10px #B0BEC5;
+}
+.image-1{
+    padding-left: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.a-box1{
+    text-decoration: none;
+}
+
+p {padding: 0 15px;
+font-size: 14px;
+color: black;}
+.del{color:grey;}
+.span1{
+    color: #2196F3;
+    border: 1px solid #2196F3;
+    background-color:#BBDEFB;
+}
+strong{color:black; 
+    font-size: 16px;
+}
+.svg-span{display: flex;
+padding:0 15px ;}
+.p-star{padding: 0px;
+color: black;}
+.threeitems{ display: flex;
+justify-content: space-between;
+padding: 0px 15px;}
+.svg-p{padding: 0px;}
+.image-2{
+    padding-left: 75px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.image-3{
+    padding-left: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.image-4{
+    padding-left: 78px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
