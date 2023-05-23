@@ -1,0 +1,34 @@
+div{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: yellowgreen;
+    animation: saba 2s infinite;
+
+}
+@keyframes saba{
+    0% {left:0px; top: 0px;}
+    25%{left: 200px; top: 0px;}
+    50%{left:200px; top: 200px;}
+    75%{left:0px; top:200px}
+    100%{left:0px; top:0px}
+}
+ul{background-color: rgb(97, 97, 97);
+padding: 5px;
+margin: 0px;
+overflow: hidden;}
+li{
+    list-style-type: none;
+    float: left;
+}
+ ul li a {
+    color:#fff;
+    text-decoration: none;
+    padding: 14px 16px;
+    text-align: center;
+    font-size: 22px;
+    display: block;
+    border-radius: 20px;
+    transition: .3s;
+}
+ul li a:hover{background-color: green;}
