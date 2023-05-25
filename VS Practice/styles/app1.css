@@ -1,33 +1,44 @@
-div{
-    width: 100px;
-    height: 100px;
-    position: relative;
-    background-color: yellowgreen;
-    animation: saba 2s infinite;
+ul{
+    background-color:rgb(97, 97, 97);
+    padding: 5px;
+    margin: 0px;
+    height: 60px;
+}
+.head{list-style-type: none; float: left; margin: 10px; position: relative;}
 
-}
-@keyframes saba{
-    0% {left:0px; top: 0px;}
-    25%{left: 200px; top: 0px;}
-    50%{left:200px; top: 200px;}
-    75%{left:0px; top:200px}
-    100%{left:0px; top:0px}
-}
-ul{background-color: rgb(97, 97, 97);
-padding: 5px;
-margin: 0px;
-overflow: hidden;}
-li{
-    list-style-type: none;
-    float: left;
-}
- ul li a {
-    color:#fff;
+
+
+.head > a {
+    color: aliceblue;
     text-decoration: none;
     padding: 14px 16px;
     text-align: center;
-    font-size: 22px;
+   
     display: block;
     border-radius: 20px;
-    transition: .3s;
+    transition: bachground-color 300ms;
+}
+.head > a:hover{
+    background-color: green;
+}
+.submenu{
+    display: none;
+    position: absolute;
+    background-color:rgb(174, 213, 129);
+    overflow: hidden;
+    margin: 5px;
+    transition-delay: 1s;
+    transition: opacity 300ms;
+    opacity: 0;
+}
+.a-subhead
+{   display: block;
+    list-style-type: none;
+    text-decoration: none;
+    color: aliceblue;
+}
+.head:hover .submenu{
+    display: block;
+    border-radius: 10px;
+    opacity: 1;
 }

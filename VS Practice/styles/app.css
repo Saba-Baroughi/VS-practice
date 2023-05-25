@@ -1,18 +1,31 @@
 *{box-sizing: border-box;
 margin: 0px;}
-body{font-family: 'Times New Roman', Times, serif;
-background-color: #E0F7FA;}
-.box1, .box2, .box3{ height: 200px;
-margin: 25px;}
-.box1{background-color: #EC407A;position: relative
-;}
-.box2{background-color: #29B6F6;
-position: sticky;
-top: 50px}
-.box3{background-color: #43A047;}
-.overlay{height: 1800px;}
-.box1-child{
-width: 100px;
-height: 100px;
-position: absolute;
-right: 0;}
+.container{
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 56px;
+    background-color: #E1F5FE;
+}
+[href$=com]{background-color:red;}
+.test{
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    background-image:linear-gradient(rgb(178, 223, 219, 0.5), rgb(0, 105, 92, 0.5)), url("../images/img1.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.practice{
+    width: 300px;
+    height: 100px;
+    background-color: rgb(118, 255, 3);
+    transition: width 200ms ease-in 100ms;
+}
+.practice:hover{
+    background-color:rgb(128, 222, 234);
+    width: 500px;
+    
+    box-shadow: 0 0 16px rgb(255, 87, 34);
+}
